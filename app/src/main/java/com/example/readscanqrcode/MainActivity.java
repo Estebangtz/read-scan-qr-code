@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                         builder.setNeutralButton("Entendido", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                Toast.makeText(MainActivity.this,"Gracias por entender", Toast.LENGTH_SHORT).show();
+                               // Toast.makeText(MainActivity.this,"Gracias por entender", Toast.LENGTH_SHORT).show();
                                // dialogInterface.cancel();
                             }
                         });
