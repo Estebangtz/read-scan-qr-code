@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_light_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_titulo_str"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary_dark"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCodigo"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:hint="@string/edt_codigo_str"
+        android:overScrollMode="always"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_generar_str"
+            android:id="@+id/btGenerar"
+            android:layout_weight="1"
+            android:layout_marginEnd="2dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scanear_str"
+            android:id="@+id/btScanear"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_limpiar_str"
+            android:id="@+id/btLimpiar"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_foto_str"
+            android:id="@+id/btFoto"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imvCodigoQR"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/cardview_shadow_start_color"
+
+        />
+
+</LinearLayout>
