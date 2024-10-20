@@ -3,7 +3,7 @@
     <string name="lbl_titulo_str">Lector de Codigos de Barra y QR</string>
     <string name="edt_codigo_str">Capture el dato a generar a codigo QR</string>
     <string name="btn_generar_str">Generar</string>
-    <string name="btn_scanear_str">Scann</string>
+    <string name="btn_scanear_str">Captura</string>
     <string name="btn_limpiar_str">Limpiar</string>
     <string name="btn_foto_str">Foto</string>
 </resources>
