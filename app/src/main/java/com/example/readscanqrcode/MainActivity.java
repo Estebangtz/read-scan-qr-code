@@ -24,7 +24,7 @@ import com.google.zxing.integration.android.IntentResult;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnGenerar, btnScannear, btnLimpiar, btnFoto;
+    private Button btnGenerar, btnScannear, btnLimpiar;
     private ImageView imgCodigoqr;
     private EditText txtcodigo;
 
@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         btnGenerar = findViewById(R.id.btGenerar);
         btnScannear = findViewById(R.id.btScanear);
         btnLimpiar = findViewById(R.id.btLimpiar);
-        btnFoto = findViewById(R.id.btFoto);
         imgCodigoqr = findViewById(R.id.imvCodigoQR);
         imgCodigoqr.setImageResource(com.google.android.material.R.drawable.abc_ic_search_api_material);
         txtcodigo = findViewById(R.id.edtCodigo);
