@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">READ &amp; SCAN QR CODE</string>
-    <string name="lbl_titulo_str">Lector de Codigos de Barra y QR</string>
+    <string name="lbl_titulo_str">Genera y Escanea Codigos de Barra y QR</string>
     <string name="edt_codigo_str">Capture el dato a generar a codigo QR</string>
     <string name="btn_generar_str">Generar</string>
     <string name="btn_scanear_str">Escanear</string>
